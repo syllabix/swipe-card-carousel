@@ -2,7 +2,7 @@
 //  SwipeCardCarousel.h
 //  SwipeCardCarousel
 //
-//  Created by Tom Stoepker on 10/5/16.
+//  Created by Tom Stoepker on 10/6/16.
 //  Copyright © 2016 CrushOnly. All rights reserved.
 //
 

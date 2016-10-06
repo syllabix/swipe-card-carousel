@@ -1,5 +1,5 @@
 //
-//  SwipeIndicator.swift
+//  SwipeCardDeck.swift
 //  SwipeCardCarousel
 //
 //  Created by Tom Stoepker on 10/6/16.

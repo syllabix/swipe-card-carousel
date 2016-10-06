@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F64BB851DA5C7F600691F3C"
+               BlueprintIdentifier = "1FB0B03D1DA690DB00AB3DAA"
                BuildableName = "SwipeCardCarousel.framework"
                BlueprintName = "SwipeCardCarousel"
                ReferencedContainer = "container:SwipeCardCarousel.xcodeproj">
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1FB0B0461DA690DB00AB3DAA"
+               BuildableName = "SwipeCardCarouselTests.xctest"
+               BlueprintName = "SwipeCardCarouselTests"
+               ReferencedContainer = "container:SwipeCardCarousel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1FB0B03D1DA690DB00AB3DAA"
+            BuildableName = "SwipeCardCarousel.framework"
+            BlueprintName = "SwipeCardCarousel"
+            ReferencedContainer = "container:SwipeCardCarousel.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F64BB851DA5C7F600691F3C"
+            BlueprintIdentifier = "1FB0B03D1DA690DB00AB3DAA"
             BuildableName = "SwipeCardCarousel.framework"
             BlueprintName = "SwipeCardCarousel"
             ReferencedContainer = "container:SwipeCardCarousel.xcodeproj">
@@ -63,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1F64BB851DA5C7F600691F3C"
+            BlueprintIdentifier = "1FB0B03D1DA690DB00AB3DAA"
             BuildableName = "SwipeCardCarousel.framework"
             BlueprintName = "SwipeCardCarousel"
             ReferencedContainer = "container:SwipeCardCarousel.xcodeproj">
