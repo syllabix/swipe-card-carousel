@@ -39,7 +39,8 @@ class ExampleCard: SwipeCard {
 	
 	private func layoutAndAddSubviews() {
 		if viewLayoutComplete { return }
-		
+		aboutLabel.numberOfLines = 5
+		aboutLabel.lineBreakMode = .byWordWrapping
 		for (key,view) in viewDictionary {
 			view.translatesAutoresizingMaskIntoConstraints = false
 			addSubview(view)
@@ -47,9 +48,9 @@ class ExampleCard: SwipeCard {
 			addConstraints(h)
 		}
 		
-		let constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[title]-[about]-[value]-8-|", options: NSLayoutFormatOptions.alignAllLeft, metrics: nil, views: viewDictionary)
+		let constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[title]-[about(>=75)]-[value]-8-|", options: NSLayoutFormatOptions.alignAllLeft, metrics: nil, views: viewDictionary)
 		addConstraints(constraints)
-		
+		viewLayoutComplete = true
 	}
 	
 	override func layoutSubviews() {

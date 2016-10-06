@@ -21,8 +21,8 @@ class SwipeIndicator: UIView {
 	}
 	
 	//Context label (label that appears under the indcator that should give context for the next view being swiped too
-	var textColor = UIColor.white
-	var font = UIFont.preferredFont(forTextStyle: .body)
+	var textColor = UIColor.black
+	var font = UIFont.systemFont(ofSize: 18)
 	
 	var direction: SwipeCardDirection?
 	
