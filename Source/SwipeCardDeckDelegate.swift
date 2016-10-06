@@ -6,7 +6,7 @@
 //  Copyright © 2016 CrushOnly. All rights reserved.
 //
 
-protocol SwipeCardsViewDelegate {
+protocol SwipeCardDeckDelegate {
 	func cardAt(index: Int) -> SwipeCard
 	func numberOfCardsInDeck() -> Int
 	func labelForNextIndicatorAt(index: Int) -> String

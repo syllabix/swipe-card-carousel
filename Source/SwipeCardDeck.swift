@@ -10,7 +10,7 @@ import UIKit
 
 public class SwipeCardDeck: UIView, SwipeCardDelegate {
 	
-	var delegate: SwipeCardsViewDelegate?
+	var delegate: SwipeCardDeckDelegate?
 	var cardInsets: CGFloat = 0
 	fileprivate var curindex: Int = 0
 	

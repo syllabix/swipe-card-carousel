@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Yao-Eg-TgI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Example View Controller-->
+        <scene sceneID="wHr-d2-KwL">
+            <objects>
+                <viewController id="Yao-Eg-TgI" customClass="ExampleViewController" customModule="SwipeCardCarousel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FbU-Hp-mXM"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Qy-zL-2ZS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G2I-4s-HmC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sK-91-v3G" userLabel="CardDeck" customClass="SwipeCardDeck" customModule="SwipeCardCarousel" customModuleProvider="target">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0sK-91-v3G" secondAttribute="height" multiplier="1:1" id="jQq-kd-Ulg"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe Card Carousel Example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxr-l2-DD5">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="g6Y-cY-1lZ"/>
+                                    <constraint firstAttribute="width" constant="237" id="jBv-vy-79z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe left or right to navigate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xOc-Ca-h04">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.89411764709999997" green="0.90196078430000004" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nxr-l2-DD5" firstAttribute="top" secondItem="FbU-Hp-mXM" secondAttribute="bottom" constant="8" id="Jy1-IZ-Dav"/>
+                            <constraint firstItem="xOc-Ca-h04" firstAttribute="leading" secondItem="G2I-4s-HmC" secondAttribute="leadingMargin" constant="3" id="KeC-13-diA"/>
+                            <constraint firstItem="nxr-l2-DD5" firstAttribute="leading" secondItem="G2I-4s-HmC" secondAttribute="leadingMargin" constant="3" id="YwI-KZ-aqh"/>
+                            <constraint firstItem="0sK-91-v3G" firstAttribute="centerY" secondItem="G2I-4s-HmC" secondAttribute="centerY" id="jHO-b0-3mI"/>
+                            <constraint firstItem="0sK-91-v3G" firstAttribute="centerX" secondItem="G2I-4s-HmC" secondAttribute="centerX" id="l5Q-kf-LPM"/>
+                            <constraint firstItem="0sK-91-v3G" firstAttribute="width" secondItem="G2I-4s-HmC" secondAttribute="width" multiplier="0.9" id="q9u-PS-fwZ"/>
+                            <constraint firstItem="xOc-Ca-h04" firstAttribute="top" secondItem="nxr-l2-DD5" secondAttribute="bottom" constant="8" id="yii-0E-xOE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardDeck" destination="0sK-91-v3G" id="XN4-lg-HJf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Exo-Ha-PZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2.3999999999999999" y="160.56971514242881"/>
+        </scene>
+    </scenes>
+</document>
