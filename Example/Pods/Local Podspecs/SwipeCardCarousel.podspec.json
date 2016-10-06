@@ -1,0 +1,27 @@
+{
+  "name": "SwipeCardCarousel",
+  "version": "0.0.1",
+  "summary": "Swipe through a collection of cards stacked in a carousel deck.",
+  "description": "Swipe through a collection of cards stacked in a carousel deck. Useful for swipe card style navigation through views.",
+  "homepage": "https://github.com/syllabix/swipe-card-carousel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tom Stoepker": "tom.stoepker@gmail.com"
+  },
+  "social_media_url": "http://twitter.com/outconsider",
+  "source": {
+    "git": "https://github.com/syllabix/swipe-card-carousel.git",
+    "tag": "0.0.1"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3"
+  },
+  "platforms": {
+    "ios": "9.1"
+  },
+  "requires_arc": true,
+  "source_files": "Source/*.{swift,h}"
+}
