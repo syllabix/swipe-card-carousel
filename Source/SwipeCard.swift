@@ -8,17 +8,17 @@
 
 import UIKit
 
-class SwipeCard: UIView, UIGestureRecognizerDelegate {
+open class SwipeCard: UIView, UIGestureRecognizerDelegate {
 	
 	var originalCenter = CGPoint()
 	var delegate: SwipeCardDelegate?
 	var isontop = false
 	
-	fileprivate var swipecomplete = false
-	fileprivate var direction: SwipeCardDirection = .none
+	private var swipecomplete = false
+	private var direction: SwipeCardDirection = .none
 	
-	fileprivate let nxt = SwipeIndicator()
-	fileprivate let prev = SwipeIndicator()
+	private let nxt = SwipeIndicator()
+	private let prev = SwipeIndicator()
 	
 	var indicatorSize: CGFloat {
 		get {
@@ -33,7 +33,7 @@ class SwipeCard: UIView, UIGestureRecognizerDelegate {
 		addGestureRecognizer(panrecognizer)
 	}
 	
-	required init?(coder aDecoder: NSCoder) {
+	required public init?(coder aDecoder: NSCoder) {
 		fatalError("init(coder:) has not been implemented")
 	}
 	
@@ -117,7 +117,7 @@ class SwipeCard: UIView, UIGestureRecognizerDelegate {
 		addSubview(prev)
 	}
 	
-	override func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+	override open func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
 		if let panGestureRecognizer = gestureRecognizer as? UIPanGestureRecognizer {
 			let translation = panGestureRecognizer.translation(in: superview!)
 			if fabs(translation.x) > fabs(translation.y) {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SwipeCardDeck: UIView, SwipeCardDelegate {
+public class SwipeCardDeck: UIView, SwipeCardDelegate {
 	
 	var delegate: SwipeCardsViewDelegate?
 	var cardInsets: CGFloat = 0
@@ -30,7 +30,7 @@ class SwipeCardDeck: UIView, SwipeCardDelegate {
 		super.init(frame: frame)
 	}
 	
-	required init?(coder aDecoder: NSCoder) {
+	required public init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 	}
 	
@@ -74,7 +74,8 @@ class SwipeCardDeck: UIView, SwipeCardDelegate {
 		return curindex
 	}
 	
-	override func layoutSubviews() {
+	override public func layoutSubviews() {
+		super.layoutSubviews()
 		if !deckready {
 			setUpDeck()
 		}
