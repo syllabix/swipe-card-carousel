@@ -26,7 +26,7 @@ open class SwipeCard: UIView, UIGestureRecognizerDelegate {
 		}
 	}
 	
-	override init(frame: CGRect) {
+	override public init(frame: CGRect) {
 		super.init(frame: frame)
 		let panrecognizer = UIPanGestureRecognizer(target: self, action: #selector(SwipeCard.handlePan(_:)))
 		panrecognizer.delegate = self

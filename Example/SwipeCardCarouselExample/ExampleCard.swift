@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwipeCardCarousel
 
 class ExampleCard: SwipeCard {
 	
@@ -20,6 +21,10 @@ class ExampleCard: SwipeCard {
 	
 	override init(frame: CGRect) {
 		super.init(frame: frame)
+		backgroundColor = UIColor.white
+		layer.shadowOpacity = 0.15
+		layer.shadowOffset = CGSize(width: 0, height: 0.9)
+		layer.shadowRadius = 0.5
 		titleLabel.font = UIFont.boldSystemFont(ofSize: 22)
 		viewDictionary["title"] = titleLabel
 		aboutLabel.font = UIFont.italicSystemFont(ofSize: 16)
@@ -35,13 +40,16 @@ class ExampleCard: SwipeCard {
 	private func layoutAndAddSubviews() {
 		if viewLayoutComplete { return }
 		
-		let constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[title]-[about]-value-8-|", options: NSLayoutFormatOptions.alignAllLeft, metrics: nil, views: viewDictionary)
-		addConstraints(constraints)
-		
-		for (_,view) in viewDictionary {
+		for (key,view) in viewDictionary {
 			view.translatesAutoresizingMaskIntoConstraints = false
 			addSubview(view)
+			let h = NSLayoutConstraint.constraints(withVisualFormat: "H:|-8-[\(key)]-8-|", options: NSLayoutFormatOptions(), metrics: nil, views: viewDictionary)
+			addConstraints(h)
 		}
+		
+		let constraints = NSLayoutConstraint.constraints(withVisualFormat: "V:|-8-[title]-[about]-[value]-8-|", options: NSLayoutFormatOptions.alignAllLeft, metrics: nil, views: viewDictionary)
+		addConstraints(constraints)
+		
 	}
 	
 	override func layoutSubviews() {

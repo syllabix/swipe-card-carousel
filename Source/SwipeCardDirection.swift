@@ -6,7 +6,7 @@
 //  Copyright © 2016 CrushOnly. All rights reserved.
 //
 
-enum SwipeCardDirection: Int {
+public enum SwipeCardDirection: Int {
 	case next = 1
 	case prev = -1
 	case none = 0

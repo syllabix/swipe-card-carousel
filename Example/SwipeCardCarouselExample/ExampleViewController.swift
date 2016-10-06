@@ -18,7 +18,7 @@ class ExampleViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		data = getExampleData()
-		// Do any additional setup after loading the view.
+		cardDeck.delegate = self
 	}
 	
 	override func didReceiveMemoryWarning() {

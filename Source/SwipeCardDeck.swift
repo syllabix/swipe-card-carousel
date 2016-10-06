@@ -10,9 +10,10 @@ import UIKit
 
 public class SwipeCardDeck: UIView, SwipeCardDelegate {
 	
-	var delegate: SwipeCardDeckDelegate?
-	var cardInsets: CGFloat = 0
-	fileprivate var curindex: Int = 0
+	public var delegate: SwipeCardDeckDelegate?
+	public var cardInsets: CGFloat = 0
+	
+	private var curindex: Int = 0
 	
 	private var numcards: Int = 0
 	private var cardrect: CGRect!
@@ -89,7 +90,7 @@ public class SwipeCardDeck: UIView, SwipeCardDelegate {
 		                     right: delegate.labelForNextIndicatorAt(index: nextIndexValue(.prev)))
 	}
 	
-	func updateSwipe(distance: CGFloat) {
+	public func updateSwipe(distance: CGFloat) {
 		let percentTraveled = distance / bounds.size.width
 		let percentFromOriginState = (40 * percentTraveled) / 100
 		let scale = 0.6 + percentFromOriginState
@@ -100,7 +101,7 @@ public class SwipeCardDeck: UIView, SwipeCardDelegate {
 		}
 	}
 	
-	func updateSwipe(direction: SwipeCardDirection) {
+	public func updateSwipe(direction: SwipeCardDirection) {
 		guard let delegate = self.delegate else { return }
 		if carddeck.count > 1 {
 			if let btmcard = carddeck.last {
@@ -118,7 +119,7 @@ public class SwipeCardDeck: UIView, SwipeCardDelegate {
 		sendSubview(toBack: nextcard)
 	}
 	
-	func swipeComplete() {
+	public func swipeComplete() {
 		let topcard = carddeck.first
 		let bottomcard = carddeck.last
 		let xPos = (cardrect.size.width + 20) * CGFloat(swipedirection.rawValue)
