@@ -18,14 +18,14 @@
 
 /* Begin PBXFileReference section */
 		1F64BB861DA5C7F600691F3C /* SwipeCardCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCardCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F64BB891DA5C7F600691F3C /* SwipeCardCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeCardCarousel.h; sourceTree = "<group>"; };
-		1F64BB8A1DA5C7F600691F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F64BB911DA5CA3D00691F3C /* SwipeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCard.swift; path = "../../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeCard.swift"; sourceTree = "<group>"; };
-		1F64BB921DA5CA3D00691F3C /* SwipeCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCards.swift; path = "../../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeCards.swift"; sourceTree = "<group>"; };
-		1F64BB931DA5CA3D00691F3C /* SwipeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeIndicator.swift; path = "../../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeIndicator.swift"; sourceTree = "<group>"; };
-		1F64BB971DA5CB5200691F3C /* SwipeCardsViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardsViewDelegate.swift; sourceTree = "<group>"; };
-		1F64BB991DA5CBBA00691F3C /* SwipeCardDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardDirection.swift; sourceTree = "<group>"; };
-		1F64BB9B1DA5CBCB00691F3C /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardDelegate.swift; sourceTree = "<group>"; };
+		1F64BB891DA5C7F600691F3C /* SwipeCardCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwipeCardCarousel.h; path = SwipeCardCarousel/SwipeCardCarousel.h; sourceTree = "<group>"; };
+		1F64BB8A1DA5C7F600691F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwipeCardCarousel/Info.plist; sourceTree = "<group>"; };
+		1F64BB911DA5CA3D00691F3C /* SwipeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCard.swift; path = "../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeCard.swift"; sourceTree = "<group>"; };
+		1F64BB921DA5CA3D00691F3C /* SwipeCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCards.swift; path = "../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeCards.swift"; sourceTree = "<group>"; };
+		1F64BB931DA5CA3D00691F3C /* SwipeIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeIndicator.swift; path = "../../../cqlstash/oilservicelabs-ios/Oil Service Labs/Oil Service Labs/SwipeIndicator.swift"; sourceTree = "<group>"; };
+		1F64BB971DA5CB5200691F3C /* SwipeCardsViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCardsViewDelegate.swift; path = SwipeCardCarousel/SwipeCardsViewDelegate.swift; sourceTree = "<group>"; };
+		1F64BB991DA5CBBA00691F3C /* SwipeCardDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCardDirection.swift; path = SwipeCardCarousel/SwipeCardDirection.swift; sourceTree = "<group>"; };
+		1F64BB9B1DA5CBCB00691F3C /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwipeCardDelegate.swift; path = SwipeCardCarousel/SwipeCardDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		1F64BB7C1DA5C7F600691F3C = {
 			isa = PBXGroup;
 			children = (
-				1F64BB881DA5C7F600691F3C /* SwipeCardCarousel */,
+				1F64BB9D1DA5EF5600691F3C /* Source */,
 				1F64BB871DA5C7F600691F3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F64BB881DA5C7F600691F3C /* SwipeCardCarousel */ = {
+		1F64BB9D1DA5EF5600691F3C /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				1F64BB911DA5CA3D00691F3C /* SwipeCard.swift */,
@@ -67,7 +67,7 @@
 				1F64BB991DA5CBBA00691F3C /* SwipeCardDirection.swift */,
 				1F64BB9B1DA5CBCB00691F3C /* SwipeCardDelegate.swift */,
 			);
-			path = SwipeCardCarousel;
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
