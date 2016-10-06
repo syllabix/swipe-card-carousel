@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8BA20BD90FC57FEA722170C5653A1D978EE97503",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8BA20BD90FC57FEA722170C5653A1D978EE97503" : 9223372036854775807,
+    "1AEAC8535B2197910807C7E2D71D2E9480AD285B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9C5EB67-DEB7-4717-931B-C0773249348A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8BA20BD90FC57FEA722170C5653A1D978EE97503" : "swipe-card-carousel\/",
+    "1AEAC8535B2197910807C7E2D71D2E9480AD285B" : "..\/..\/cqlstash\/oilservicelabs-ios"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwipeCardCarousel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwipeCardCarousel.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/stash.cqlcorp.net:7999\/cpi\/oilservicelabs-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1AEAC8535B2197910807C7E2D71D2E9480AD285B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/syllabix\/swipe-card-carousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8BA20BD90FC57FEA722170C5653A1D978EE97503"
+    }
+  ]
+}
