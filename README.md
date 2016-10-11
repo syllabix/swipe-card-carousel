@@ -9,7 +9,7 @@
 ### Project Status.
 More comprehensive docs coming soon. For now, if interested in using the component, check out the included example.
 
-#### Todos:
+#### ToDo:
 
 1. Add enumeration with associated values of CAShapeLayer to draw common left/right indicator icons.
 2. Improve options API.
