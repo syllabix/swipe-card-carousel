@@ -1,6 +1,7 @@
+use_frameworks!
 platform :ios, '9.1'
 
 target 'SwipeCardCarouselExample' do  
-  # Pods for SwipeCardCarouselExample
-  pod 'SwipeCardCarousel'
+  
+  pod 'SwipeCardCarousel', :path => '../'
 end
