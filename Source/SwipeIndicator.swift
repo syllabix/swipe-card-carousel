@@ -8,7 +8,8 @@
 
 import UIKit
 
-class SwipeIndicator: UIView {
+
+public class SwipeIndicator: UIView {
 	
 	private var contextLabel = UILabel()
 	private var directionLabel = CAShapeLayer()
@@ -35,7 +36,7 @@ class SwipeIndicator: UIView {
 	
 	private var complete = false
 	
-	override func layoutSubviews() {
+	override public func layoutSubviews() {
 		let diameter: CGFloat = bounds.height / 2
 		let xPos: CGFloat = (bounds.width / 2) - (diameter / 2)
 		let circlerect = CGRect(x: xPos, y: 0, width: diameter, height: diameter)

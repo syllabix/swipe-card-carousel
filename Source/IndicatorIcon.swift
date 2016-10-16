@@ -8,11 +8,11 @@
 
 import UIKit
 
-enum IndicatorDirection {
+public enum IndicatorDirection {
 	case Left, Right
 }
 
-class IndicatorIcon: UIView {
+open class IndicatorIcon: UIView {
 
 	var color: UIColor?
 	var direction: IndicatorDirection?

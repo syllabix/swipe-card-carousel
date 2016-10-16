@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Arrow: IndicatorIcon {
+public class Arrow: IndicatorIcon {
 	
 	private var stem: CAShapeLayer?
 	private var arrow: CAShapeLayer?
@@ -41,7 +41,7 @@ class Arrow: IndicatorIcon {
 		
 	}
 
-	override func layoutSubviews() {
+	override public func layoutSubviews() {
 		super.layoutSubviews()
 		drawArrow()
 	}

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Chevron: IndicatorIcon {	
+public class Chevron: IndicatorIcon {
 	
 	private var chevron: CAShapeLayer?
 	
@@ -32,7 +32,7 @@ class Chevron: IndicatorIcon {
 		chevron = addLayerWith(path: path)
 	}
 	
-	override func layoutSubviews() {
+	override public func layoutSubviews() {
 		super.layoutSubviews()
 		drawChevron()
 	}
