@@ -43,8 +43,14 @@ public class SwipeIndicator: UIView {
 		circle.path = UIBezierPath(ovalIn: circlerect).cgPath
 		circle.fillColor = startcolor
 		
+		let iconWidth = diameter / 4
+		let iconHeight = diameter / 6
 		let icon = iconType.icon
-		icon.frame = circlerect
+		icon.direction = (self.direction == SwipeCardDirection.prev) ? IndicatorDirection.Left : IndicatorDirection.Right
+		icon.lineWidth = 7
+		let offsetX: CGFloat = (self.direction == SwipeCardDirection.prev) ? -3.5 : 3.5;
+		let icoFrame = circlerect.insetBy(dx: iconWidth, dy: iconHeight)
+		icon.frame = icoFrame.offsetBy(dx: offsetX, dy: 0)
 		
 		let adjustment = CGFloat((direction?.rawValue)!)
 		directionLabel.frame = CGRect(origin: CGPoint(x: circlerect.origin.x + adjustment, y: circlerect.origin.y), size: circlerect.size)
