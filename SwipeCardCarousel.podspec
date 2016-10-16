@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SwipeCardCarousel"
-  s.version          = "0.0.35"
+  s.version          = "0.0.4"
   s.summary          = "Swipe through a collection of cards stacked in a carousel deck."
   s.description      = "Swipe through a collection of cards stacked in a carousel deck. Useful for swipe card style navigation through views."
   s.homepage         = "https://github.com/syllabix/swipe-card-carousel"
