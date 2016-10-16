@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E66D9D03FEC8E82FFB55BCF0DE45545 /* SwipeCardDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAB05FF8299EABA065B40616F534B9 /* SwipeCardDirection.swift */; };
 		1371F7F8CE786B7EAD6258E34EF8F0BE /* Pods-SwipeCardCarouselExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6147E87B78B6A70984A5FEB835161A58 /* Pods-SwipeCardCarouselExample-dummy.m */; };
-		137E0F17B3E45580205455BFD3FC1CA4 /* SwipeCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B0263AC789662273F554FB4A9BF653 /* SwipeCardDeck.swift */; };
-		18B8BFB918EF7B0AAE350A59CCBD610A /* SwipeCardCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FAEAB0A2DD9DF385FE4BEBAEB6B1E76 /* SwipeCardCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4930E70BC56F3694A33AF0BA4A0D86CC /* SwipeCardCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E73B80F3A187C0B747AB77E8C0B12346 /* SwipeCardCarousel-dummy.m */; };
-		5DACAEE5C244B0430482E9E98D2AFADB /* SwipeCardDeckDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0153F3190FEB4AF6FC247E1422D2B7CC /* SwipeCardDeckDelegate.swift */; };
+		18B8BFB918EF7B0AAE350A59CCBD610A /* SwipeCardCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF2EB664ED722A60847715E9DED7CE0 /* SwipeCardCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F318CE6BE16AF70BA1668776B58850B /* SwipeCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E456A026B23EC71BAB637FDE7A25BB /* SwipeCardDeck.swift */; };
+		228E0BF2FB03E50A5326F0AC95B52A2E /* IndicatorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F2BE482B6BE953958DAE0FC4D386A /* IndicatorIcon.swift */; };
+		29334EA07E2A403BAAE829A3CE88BC15 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1299EACEBE4E35DDFBE20317514BCD2 /* Chevron.swift */; };
 		778F22D66060A06E8B7040D92557A5A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7FC6DB31EE95ACBFE34C338EC349FF17 /* SwipeCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3765987405D727195E0C1411827B8 /* SwipeCardDelegate.swift */; };
 		858851C1563DFA3D1882913BDEAF5C12 /* Pods-SwipeCardCarouselExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261C8D110B854DC136B8DAD1E561B6FC /* Pods-SwipeCardCarouselExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87E7023D374B99334FB76F9B9525C1BC /* SwipeCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8FCC8BDF8AE963EE5E57CD8386DD9 /* SwipeCardDelegate.swift */; };
-		90DC9E68A21BA228AA1581B0232C8AF4 /* SwipeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F053EB7C11D0E16454775035AB43B58D /* SwipeIndicator.swift */; };
-		96460E25557940226AB2EF613C8150BB /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B8B2ED6F207002AB22B10A44BF5CC7 /* SwipeCard.swift */; };
+		8AFC2894D5DA191ED1B8AADA2E52B33F /* IndicatorIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3A73175CF6B9F7C822F86FA6A9C55C /* IndicatorIconType.swift */; };
+		8F512D040A676297CBA9D812A6AF98E2 /* SwipeCardDeckDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFC7168FECED282DC57BC4B7B1A3B5D /* SwipeCardDeckDelegate.swift */; };
+		9B215B3D56C059FA425D2BBFDBCDAAFD /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B1AD0F2B3D8626B7A0AE359E92FB4 /* SwipeCard.swift */; };
+		A1DDB57DFF9DFC23279185C84ED0479F /* SwipeCardCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E193A136315E588155F804B6194B71A /* SwipeCardCarousel-dummy.m */; };
+		C65E0C7B10946DE47BA5DB87337CF771 /* SwipeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C747BA075CA03241B55F4016E256ECC /* SwipeIndicator.swift */; };
 		DBD34BF4931C259D48EB5D1B0140562E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		F4FA3A67B7C9C132990A1274F7D49C2A /* SwipeCardCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C0CBA9C7D92CB3AA85543D3AA0F9FE /* SwipeCardCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6E317643CC73B751BD50C6C4ECFBEB6 /* SwipeCardDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FB71CB7FAB04546F671A1634145DD8 /* SwipeCardDirection.swift */; };
+		F4FA3A67B7C9C132990A1274F7D49C2A /* SwipeCardCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E662DF3E42BF70B30AAC3C40144EBAF /* SwipeCardCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6D4907BB3D8F57CADCDED8CDCE0F156 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E99C1EFABF413353458F425E7A779D /* Arrow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,33 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0153F3190FEB4AF6FC247E1422D2B7CC /* SwipeCardDeckDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDeckDelegate.swift; sourceTree = "<group>"; };
 		07D47140452E8F788A7466DA6F45D67E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12C0CBA9C7D92CB3AA85543D3AA0F9FE /* SwipeCardCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwipeCardCarousel.h; sourceTree = "<group>"; };
-		22D7D952CDE696FE64AFE753D52BF459 /* SwipeCardCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwipeCardCarousel.modulemap; sourceTree = "<group>"; };
+		10A3765987405D727195E0C1411827B8 /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDelegate.swift; sourceTree = "<group>"; };
+		18E456A026B23EC71BAB637FDE7A25BB /* SwipeCardDeck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDeck.swift; sourceTree = "<group>"; };
+		1C3A73175CF6B9F7C822F86FA6A9C55C /* IndicatorIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IndicatorIconType.swift; sourceTree = "<group>"; };
+		1CEAB05FF8299EABA065B40616F534B9 /* SwipeCardDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDirection.swift; sourceTree = "<group>"; };
 		261C8D110B854DC136B8DAD1E561B6FC /* Pods-SwipeCardCarouselExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwipeCardCarouselExample-umbrella.h"; sourceTree = "<group>"; };
 		2749E7379669F46BCAF8ACCE2FA41809 /* Pods-SwipeCardCarouselExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeCardCarouselExample-frameworks.sh"; sourceTree = "<group>"; };
+		2E193A136315E588155F804B6194B71A /* SwipeCardCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCardCarousel-dummy.m"; sourceTree = "<group>"; };
+		339F2BE482B6BE953958DAE0FC4D386A /* IndicatorIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IndicatorIcon.swift; sourceTree = "<group>"; };
 		3615ABC60396DCD24E67468828B4C9CF /* Pods_SwipeCardCarouselExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeCardCarouselExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370B1AD0F2B3D8626B7A0AE359E92FB4 /* SwipeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
 		3782AEC2C240619E3A386406107C1A05 /* SwipeCardCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCardCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E358087F1376C28CBEC558815243562 /* Pods-SwipeCardCarouselExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwipeCardCarouselExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		472BA7630910210E7DED6ACFAA0B7604 /* Pods-SwipeCardCarouselExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeCardCarouselExample.debug.xcconfig"; sourceTree = "<group>"; };
-		51FB71CB7FAB04546F671A1634145DD8 /* SwipeCardDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDirection.swift; sourceTree = "<group>"; };
 		5546F782697BA4BC020119D94370BD51 /* Pods-SwipeCardCarouselExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwipeCardCarouselExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6147E87B78B6A70984A5FEB835161A58 /* Pods-SwipeCardCarouselExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwipeCardCarouselExample-dummy.m"; sourceTree = "<group>"; };
-		756FEFBF4BF229E07AA34D1DF1028B08 /* SwipeCardCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCardCarousel-prefix.pch"; sourceTree = "<group>"; };
-		8AD8FCC8BDF8AE963EE5E57CD8386DD9 /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDelegate.swift; sourceTree = "<group>"; };
+		6C29E5BF20105B8E216BA7B3E3C6814C /* SwipeCardCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwipeCardCarousel.modulemap; sourceTree = "<group>"; };
+		8C93F2C201C6413B4F8458E5B7E07AB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E662DF3E42BF70B30AAC3C40144EBAF /* SwipeCardCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwipeCardCarousel.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FAEAB0A2DD9DF385FE4BEBAEB6B1E76 /* SwipeCardCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCardCarousel-umbrella.h"; sourceTree = "<group>"; };
+		9C747BA075CA03241B55F4016E256ECC /* SwipeIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeIndicator.swift; sourceTree = "<group>"; };
 		ADA60BDC51B77597358D6DAB9EC5D093 /* Pods-SwipeCardCarouselExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwipeCardCarouselExample.release.xcconfig"; sourceTree = "<group>"; };
-		B6B8B2ED6F207002AB22B10A44BF5CC7 /* SwipeCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
 		BA0095BDC3A7F5EC15B76771613E7B98 /* Pods-SwipeCardCarouselExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwipeCardCarouselExample.modulemap"; sourceTree = "<group>"; };
-		C0B0263AC789662273F554FB4A9BF653 /* SwipeCardDeck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDeck.swift; sourceTree = "<group>"; };
+		C7E99C1EFABF413353458F425E7A779D /* Arrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Arrow.swift; sourceTree = "<group>"; };
+		CB43A059F50589F9BFFADBA6BFF77446 /* SwipeCardCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCardCarousel.xcconfig; sourceTree = "<group>"; };
+		CC11CD0B8486242C1CC7F074F37B6012 /* SwipeCardCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCardCarousel-prefix.pch"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E73B80F3A187C0B747AB77E8C0B12346 /* SwipeCardCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeCardCarousel-dummy.m"; sourceTree = "<group>"; };
-		ED64BD20EDDC24BDB84EE0FCEE1C8073 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F053EB7C11D0E16454775035AB43B58D /* SwipeIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeIndicator.swift; sourceTree = "<group>"; };
+		DBFC7168FECED282DC57BC4B7B1A3B5D /* SwipeCardDeckDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwipeCardDeckDelegate.swift; sourceTree = "<group>"; };
+		E1299EACEBE4E35DDFBE20317514BCD2 /* Chevron.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Chevron.swift; sourceTree = "<group>"; };
+		EDF2EB664ED722A60847715E9DED7CE0 /* SwipeCardCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeCardCarousel-umbrella.h"; sourceTree = "<group>"; };
 		FECCD399364DC908B1B29EFD84483B3B /* Pods-SwipeCardCarouselExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwipeCardCarouselExample-resources.sh"; sourceTree = "<group>"; };
-		FF2E7268A09EE92DDA8FC606F0A1BB77 /* SwipeCardCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeCardCarousel.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3216D2646645A093B65CFC32FC66B408 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C7E99C1EFABF413353458F425E7A779D /* Arrow.swift */,
+				E1299EACEBE4E35DDFBE20317514BCD2 /* Chevron.swift */,
+				339F2BE482B6BE953958DAE0FC4D386A /* IndicatorIcon.swift */,
+				1C3A73175CF6B9F7C822F86FA6A9C55C /* IndicatorIconType.swift */,
+				370B1AD0F2B3D8626B7A0AE359E92FB4 /* SwipeCard.swift */,
+				8E662DF3E42BF70B30AAC3C40144EBAF /* SwipeCardCarousel.h */,
+				18E456A026B23EC71BAB637FDE7A25BB /* SwipeCardDeck.swift */,
+				DBFC7168FECED282DC57BC4B7B1A3B5D /* SwipeCardDeckDelegate.swift */,
+				10A3765987405D727195E0C1411827B8 /* SwipeCardDelegate.swift */,
+				1CEAB05FF8299EABA065B40616F534B9 /* SwipeCardDirection.swift */,
+				9C747BA075CA03241B55F4016E256ECC /* SwipeIndicator.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,28 +124,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4F1E43D40DFA2DC93A7D632047429348 /* SwipeCardCarousel */ = {
+		46D697F7D0ACAA14CBE49C44C9D27082 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59AEF28F713208F37EB20CD9418C4AD1 /* Source */,
-				BAD582CECA5501328C9A1968B6193709 /* Support Files */,
+				8C93F2C201C6413B4F8458E5B7E07AB8 /* Info.plist */,
+				6C29E5BF20105B8E216BA7B3E3C6814C /* SwipeCardCarousel.modulemap */,
+				CB43A059F50589F9BFFADBA6BFF77446 /* SwipeCardCarousel.xcconfig */,
+				2E193A136315E588155F804B6194B71A /* SwipeCardCarousel-dummy.m */,
+				CC11CD0B8486242C1CC7F074F37B6012 /* SwipeCardCarousel-prefix.pch */,
+				EDF2EB664ED722A60847715E9DED7CE0 /* SwipeCardCarousel-umbrella.h */,
 			);
-			name = SwipeCardCarousel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		59AEF28F713208F37EB20CD9418C4AD1 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				B6B8B2ED6F207002AB22B10A44BF5CC7 /* SwipeCard.swift */,
-				12C0CBA9C7D92CB3AA85543D3AA0F9FE /* SwipeCardCarousel.h */,
-				C0B0263AC789662273F554FB4A9BF653 /* SwipeCardDeck.swift */,
-				0153F3190FEB4AF6FC247E1422D2B7CC /* SwipeCardDeckDelegate.swift */,
-				8AD8FCC8BDF8AE963EE5E57CD8386DD9 /* SwipeCardDelegate.swift */,
-				51FB71CB7FAB04546F671A1634145DD8 /* SwipeCardDirection.swift */,
-				F053EB7C11D0E16454775035AB43B58D /* SwipeIndicator.swift */,
-			);
-			path = Source;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwipeCardCarousel";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -136,7 +152,7 @@
 		A3E2D5E041C4049035EC5519692961D0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4F1E43D40DFA2DC93A7D632047429348 /* SwipeCardCarousel */,
+				D531A6A6B475EA285BEC06CF2E34A462 /* SwipeCardCarousel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -168,26 +184,22 @@
 			path = "Target Support Files/Pods-SwipeCardCarouselExample";
 			sourceTree = "<group>";
 		};
-		BAD582CECA5501328C9A1968B6193709 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ED64BD20EDDC24BDB84EE0FCEE1C8073 /* Info.plist */,
-				22D7D952CDE696FE64AFE753D52BF459 /* SwipeCardCarousel.modulemap */,
-				FF2E7268A09EE92DDA8FC606F0A1BB77 /* SwipeCardCarousel.xcconfig */,
-				E73B80F3A187C0B747AB77E8C0B12346 /* SwipeCardCarousel-dummy.m */,
-				756FEFBF4BF229E07AA34D1DF1028B08 /* SwipeCardCarousel-prefix.pch */,
-				9FAEAB0A2DD9DF385FE4BEBAEB6B1E76 /* SwipeCardCarousel-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwipeCardCarousel";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D531A6A6B475EA285BEC06CF2E34A462 /* SwipeCardCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3216D2646645A093B65CFC32FC66B408 /* Source */,
+				46D697F7D0ACAA14CBE49C44C9D27082 /* Support Files */,
+			);
+			name = SwipeCardCarousel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF8E96ED2BC76B2C566AD409310F13F4 /* Build configuration list for PBXNativeTarget "SwipeCardCarousel" */;
 			buildPhases = (
-				4542D3015046CD1BA0D6F433123D6A56 /* Sources */,
+				F16E31BEF33EBF71749D4064B7756611 /* Sources */,
 				C574913551315AB462D44D05F1174411 /* Frameworks */,
 				01F62C4B87B1F07F5A7E339330BD0E3F /* Headers */,
 			);
@@ -276,25 +288,29 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4542D3015046CD1BA0D6F433123D6A56 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96460E25557940226AB2EF613C8150BB /* SwipeCard.swift in Sources */,
-				4930E70BC56F3694A33AF0BA4A0D86CC /* SwipeCardCarousel-dummy.m in Sources */,
-				137E0F17B3E45580205455BFD3FC1CA4 /* SwipeCardDeck.swift in Sources */,
-				5DACAEE5C244B0430482E9E98D2AFADB /* SwipeCardDeckDelegate.swift in Sources */,
-				87E7023D374B99334FB76F9B9525C1BC /* SwipeCardDelegate.swift in Sources */,
-				F6E317643CC73B751BD50C6C4ECFBEB6 /* SwipeCardDirection.swift in Sources */,
-				90DC9E68A21BA228AA1581B0232C8AF4 /* SwipeIndicator.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BACAEC8BDC13B924A4903E3DDF845738 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1371F7F8CE786B7EAD6258E34EF8F0BE /* Pods-SwipeCardCarouselExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16E31BEF33EBF71749D4064B7756611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D4907BB3D8F57CADCDED8CDCE0F156 /* Arrow.swift in Sources */,
+				29334EA07E2A403BAAE829A3CE88BC15 /* Chevron.swift in Sources */,
+				228E0BF2FB03E50A5326F0AC95B52A2E /* IndicatorIcon.swift in Sources */,
+				8AFC2894D5DA191ED1B8AADA2E52B33F /* IndicatorIconType.swift in Sources */,
+				9B215B3D56C059FA425D2BBFDBCDAAFD /* SwipeCard.swift in Sources */,
+				A1DDB57DFF9DFC23279185C84ED0479F /* SwipeCardCarousel-dummy.m in Sources */,
+				1F318CE6BE16AF70BA1668776B58850B /* SwipeCardDeck.swift in Sources */,
+				8F512D040A676297CBA9D812A6AF98E2 /* SwipeCardDeckDelegate.swift in Sources */,
+				7FC6DB31EE95ACBFE34C338EC349FF17 /* SwipeCardDelegate.swift in Sources */,
+				0E66D9D03FEC8E82FFB55BCF0DE45545 /* SwipeCardDirection.swift in Sources */,
+				C65E0C7B10946DE47BA5DB87337CF771 /* SwipeIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +326,107 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42287DDF97330524BA3EF220F0276DA6 /* Release */ = {
+		3B8DC9A299171776DAF88AF13CBA6604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA60BDC51B77597358D6DAB9EC5D093 /* Pods-SwipeCardCarouselExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Pods-SwipeCardCarouselExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwipeCardCarouselExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		81872FCEEF05B1A19C49DE5A729FC072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB43A059F50589F9BFFADBA6BFF77446 /* SwipeCardCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCardCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwipeCardCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		882FBA27B65AEA684959DCDFEE0EF573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB43A059F50589F9BFFADBA6BFF77446 /* SwipeCardCarousel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeCardCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwipeCardCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD24A8B772A3AB80F338EF6B452909A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,6 +444,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -341,47 +458,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4AD1E5405116093C1F27C7ED2564EF6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2E7268A09EE92DDA8FC606F0A1BB77 /* SwipeCardCarousel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeCardCarousel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwipeCardCarousel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5706CD38E8A782C1341A4E73F81D3055 /* Debug */ = {
+		D446C25E8824A71E1A5C9958951C4B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 472BA7630910210E7DED6ACFAA0B7604 /* Pods-SwipeCardCarouselExample.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -391,47 +482,17 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Pods-SwipeCardCarouselExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwipeCardCarouselExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		85E076648C2AAEE1763BCD6216DEC407 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2E7268A09EE92DDA8FC606F0A1BB77 /* SwipeCardCarousel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwipeCardCarousel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwipeCardCarousel/SwipeCardCarousel.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Pods-SwipeCardCarouselExample.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwipeCardCarousel;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SwipeCardCarouselExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -441,40 +502,7 @@
 			};
 			name = Debug;
 		};
-		A0A3D163A9D6083B4A02022713E24D8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADA60BDC51B77597358D6DAB9EC5D093 /* Pods-SwipeCardCarouselExample.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwipeCardCarouselExample/Pods-SwipeCardCarouselExample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SwipeCardCarouselExample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AE9439C22469D35336242DD983DB5C5F /* Debug */ = {
+		F15098F4E21DD883A1445CB810C455E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -492,6 +520,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -509,8 +538,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -522,8 +552,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE9439C22469D35336242DD983DB5C5F /* Debug */,
-				42287DDF97330524BA3EF220F0276DA6 /* Release */,
+				F15098F4E21DD883A1445CB810C455E8 /* Debug */,
+				AD24A8B772A3AB80F338EF6B452909A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -531,8 +561,8 @@
 		724B79D51AC47E2573F18221FFB24D83 /* Build configuration list for PBXNativeTarget "Pods-SwipeCardCarouselExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5706CD38E8A782C1341A4E73F81D3055 /* Debug */,
-				A0A3D163A9D6083B4A02022713E24D8D /* Release */,
+				D446C25E8824A71E1A5C9958951C4B82 /* Debug */,
+				3B8DC9A299171776DAF88AF13CBA6604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -540,8 +570,8 @@
 		AF8E96ED2BC76B2C566AD409310F13F4 /* Build configuration list for PBXNativeTarget "SwipeCardCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85E076648C2AAEE1763BCD6216DEC407 /* Debug */,
-				4AD1E5405116093C1F27C7ED2564EF6B /* Release */,
+				882FBA27B65AEA684959DCDFEE0EF573 /* Debug */,
+				81872FCEEF05B1A19C49DE5A729FC072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

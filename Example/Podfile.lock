@@ -1,5 +1,5 @@
 PODS:
-  - SwipeCardCarousel (0.0.1)
+  - SwipeCardCarousel (0.0.35)
 
 DEPENDENCIES:
   - SwipeCardCarousel (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwipeCardCarousel: 3f96db7ce84b3898eed0d2fd1e58a3b61351a774
+  SwipeCardCarousel: 5fedf43e44213b2d6f594e94e919478dabb08953
 
-PODFILE CHECKSUM: b12d35715af5cbf4b1e822bf80dee80fd9c63e2d
+PODFILE CHECKSUM: 16b0f6ec918fde3266eedc94b6af7b4493fe0660
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2
