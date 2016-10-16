@@ -13,6 +13,7 @@ class SwipeIndicator: UIView {
 	private var contextLabel = UILabel()
 	private var directionLabel = CAShapeLayer()
 	private let circle = CAShapeLayer()
+	private let iconType = IndicatorIconType.chevron
 	
 	var text: String? {
 		didSet {
@@ -41,9 +42,8 @@ class SwipeIndicator: UIView {
 		circle.path = UIBezierPath(ovalIn: circlerect).cgPath
 		circle.fillColor = startcolor
 		
-		/*if let direction = self.direction {
-			// TODO: develop CAShapeLayers that can serve as directional icons
-		}*/
+		let icon = iconType.icon
+		icon.frame = circlerect
 		
 		let adjustment = CGFloat((direction?.rawValue)!)
 		directionLabel.frame = CGRect(origin: CGPoint(x: circlerect.origin.x + adjustment, y: circlerect.origin.y), size: circlerect.size)
@@ -56,6 +56,7 @@ class SwipeIndicator: UIView {
 		layer.addSublayer(circle)
 		circle.addSublayer(directionLabel)
 		addSubview(contextLabel)
+		addSubview(icon)
 	}
 	
 	func isSwipe(complete: Bool) {

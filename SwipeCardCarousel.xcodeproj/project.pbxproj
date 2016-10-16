@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FB0B05A1DA6986400AB3DAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FB0B0581DA6986400AB3DAA /* Info.plist */; };
+		1F7487D71DB30EB6001ACFB8 /* Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7487D41DB30EB6001ACFB8 /* Arrow.swift */; };
+		1F7487D81DB30EB6001ACFB8 /* Chevron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7487D51DB30EB6001ACFB8 /* Chevron.swift */; };
+		1F7487D91DB30EB6001ACFB8 /* IndicatorIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7487D61DB30EB6001ACFB8 /* IndicatorIcon.swift */; };
+		1F7487DA1DB3103E001ACFB8 /* IndicatorIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7487CC1DB30E4D001ACFB8 /* IndicatorIconType.swift */; };
 		1FB0B05B1DA6986400AB3DAA /* SwipeCardCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB0B0591DA6986400AB3DAA /* SwipeCardCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FB0B0601DA6988600AB3DAA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FB0B05E1DA6988600AB3DAA /* Info.plist */; };
 		1FB0B0681DA6A02500AB3DAA /* SwipeCardCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0B05F1DA6988600AB3DAA /* SwipeCardCarouselTests.swift */; };
 		1FB0B06B1DA6A7E900AB3DAA /* SwipeCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0B06A1DA6A7E900AB3DAA /* SwipeCardDelegate.swift */; };
 		1FB0B06D1DA6A80900AB3DAA /* SwipeCardDeckDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB0B06C1DA6A80900AB3DAA /* SwipeCardDeckDelegate.swift */; };
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F7487CC1DB30E4D001ACFB8 /* IndicatorIconType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndicatorIconType.swift; path = Source/IndicatorIconType.swift; sourceTree = "<group>"; };
+		1F7487D41DB30EB6001ACFB8 /* Arrow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arrow.swift; path = Source/Arrow.swift; sourceTree = "<group>"; };
+		1F7487D51DB30EB6001ACFB8 /* Chevron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Chevron.swift; path = Source/Chevron.swift; sourceTree = "<group>"; };
+		1F7487D61DB30EB6001ACFB8 /* IndicatorIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndicatorIcon.swift; path = Source/IndicatorIcon.swift; sourceTree = "<group>"; };
 		1FB0B0581DA6986400AB3DAA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		1FB0B0591DA6986400AB3DAA /* SwipeCardCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeCardCarousel.h; path = Source/SwipeCardCarousel.h; sourceTree = "<group>"; };
 		1FB0B05D1DA6988500AB3DAA /* SwipeCardCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeCardCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7487C31DB30965001ACFB8 /* IndicatorIcons */ = {
+			isa = PBXGroup;
+			children = (
+				1F7487D41DB30EB6001ACFB8 /* Arrow.swift */,
+				1F7487D51DB30EB6001ACFB8 /* Chevron.swift */,
+				1F7487D61DB30EB6001ACFB8 /* IndicatorIcon.swift */,
+			);
+			name = IndicatorIcons;
+			sourceTree = "<group>";
+		};
 		1FB0B0341DA690DB00AB3DAA = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +93,7 @@
 		1FB0B05C1DA6986F00AB3DAA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1F7487C31DB30965001ACFB8 /* IndicatorIcons */,
 				1FB0B0791DA6ACB600AB3DAA /* SwipeCard.swift */,
 				1FB0B07A1DA6ACB600AB3DAA /* SwipeCardDeck.swift */,
 				1FB0B07B1DA6ACB600AB3DAA /* SwipeIndicator.swift */,
@@ -118,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				1FB0B0711DA6A86000AB3DAA /* SwipeCardDirection.swift */,
+				1F7487CC1DB30E4D001ACFB8 /* IndicatorIconType.swift */,
 			);
 			name = Enumerations;
 			sourceTree = "<group>";
@@ -218,8 +236,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB0B0601DA6988600AB3DAA /* Info.plist in Resources */,
-				1FB0B05A1DA6986400AB3DAA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +253,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7487DA1DB3103E001ACFB8 /* IndicatorIconType.swift in Sources */,
+				1F7487D91DB30EB6001ACFB8 /* IndicatorIcon.swift in Sources */,
 				1FB0B07C1DA6ACB600AB3DAA /* SwipeCard.swift in Sources */,
+				1F7487D71DB30EB6001ACFB8 /* Arrow.swift in Sources */,
+				1F7487D81DB30EB6001ACFB8 /* Chevron.swift in Sources */,
 				1FB0B06D1DA6A80900AB3DAA /* SwipeCardDeckDelegate.swift in Sources */,
 				1FB0B07D1DA6ACB600AB3DAA /* SwipeCardDeck.swift in Sources */,
 				1FB0B0721DA6A86000AB3DAA /* SwipeCardDirection.swift in Sources */,

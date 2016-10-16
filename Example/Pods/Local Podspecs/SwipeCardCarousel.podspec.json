@@ -1,6 +1,6 @@
 {
   "name": "SwipeCardCarousel",
-  "version": "0.0.1",
+  "version": "0.0.35",
   "summary": "Swipe through a collection of cards stacked in a carousel deck.",
   "description": "Swipe through a collection of cards stacked in a carousel deck. Useful for swipe card style navigation through views.",
   "homepage": "https://github.com/syllabix/swipe-card-carousel",
@@ -14,7 +14,7 @@
   "social_media_url": "http://twitter.com/outconsider",
   "source": {
     "git": "https://github.com/syllabix/swipe-card-carousel.git",
-    "tag": "0.0.1"
+    "tag": "0.0.35"
   },
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "3"
